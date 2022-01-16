@@ -1,0 +1,154 @@
+/* Главная страница */
+
+.list{
+    margin-left: 100px;
+}
+
+.heading {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.main {
+    background-color: rgba(183, 124, 108, 0.3);
+    border: 1px rgb(209, 76, 76) 2px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    height: 410px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width:500px
+    
+}
+
+.main:hover{
+    background-color: rgb(139, 226, 239, 0.5);
+    border: hotpink;
+}
+
+
+/* Страница контактов */
+
+ul, li, p, h {
+    font-family: sans-serif;
+}
+
+
+
+.block {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    /*Отступы обнуляются*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+
+h1 {
+    font-size: 64px;
+}
+
+p,
+h1,
+h4 {
+    color: #1F3F68;
+}
+
+.contacts {
+    font-weight: 500;
+    font-size: 44px;
+}
+
+
+
+.h3_class {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.input_textarea {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.botton_class {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Фон сайта*/
+
+body {
+    background: url(https://images3.alphacoders.com/111/thumb-1920-1113237.png);
+    block-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed; /* Фиксация фона при перелистывании вниз*/
+}
+
+/* Меню сайта */
+
+.menu {
+    margin-left: 100px; /* Левый отступ меню */
+    list-style: none;
+    font-size: xx-large;
+    
+}
+
+.menu a { 
+    text-decoration: none;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu ul {
+    background: #ecdad6;
+}
+
+.menu a { 
+    padding: 1em; /* Размер иконок меню */
+    background: rgba(177, 152, 145, .3);
+    border-left: 1px solid #b19891;
+    border-right: 1px solid #b19891;
+    color: #695753;
+    
+  }
+  .menu a:hover {
+      background: rgb(173, 164, 141);}
+       /*подсвечивает блок ссылки при наведении*/
+
+  @import url(https://fonts.googleapis.com/css?family=Lora);
+
+/* Блочный элемент */
+
+
+
+
+
+
+
+

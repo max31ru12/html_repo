@@ -1,0 +1,75 @@
+/*
+.p1 {
+    color: crimson;
+}
+.li1 {
+    color: green;
+    font-family: serif;
+}
+
+.block {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images3.alphacoders.com/111/thumb-1920-1113237.png);
+}
+
+
+body {
+    font-family: sans-serif; /* меняем текст без всяких засечек */
+
+}
+/*
+.heading {
+    text-align: center;
+}
+
+.list {
+    list-style-type: none; /* Убирает маркеры */
+}
+
+/* Вложенность */
+/*
+ul li a {
+    color: darkblue;
+}
+
+.menu > li {
+    border: 1px solid #000;
+}
+
+/* Соседний элемент */
+/*
+.menu + .text {
+    text-transform: uppercase;
+    color: darkmagenta;
+}
+
+/* Группирование свойств */
+/*
+.heading2,
+.text2 {
+    text-align: center;
+}
+
+
+.heading2 {
+    /*text-align: center;*/
+    /*
+    color: purple;
+}
+
+.text2 {
+    /*text-align: center;*/
+    /*
+    color: orange; !important /* !important - максимальный приоритет*/
+    /*
+}
+
+
+
+
+
+
